@@ -2,12 +2,17 @@
 using namespace std;
 
 /*GEnera 3 funciones:
-1 - Cálculo del indice de masa corporal
-2 - Dadas las medidas de un triangulo determinar si es triangulo isósceles, escaleno o equilátero
+1 - Genera una función que intercambie el valor de dos variables enteras 
+2 - Dadas las medidas de un triangulo determinar si es triangulo isósceles, escaleno o equilátero.
 3 - Genere una tabla de conversión de grados celsius a farenheit, función debe recibir los grados inciales
     y el incremento, por ejemplo si el inicio es -20 grados hasta 40 grados y el incremento es de 5, debería
-    mostrarnos la tabla de grados celsius - farenheit de -20, -15, -10, -5, 0, 5, 10, 15, 20
+    mostrarnos la tabla de grados celsius - farenheit de -20, -15, -10, -5, 0, 5, 10, 15, 20 grados celsius
+4 - Cálculo del indice de masa corporal
 Una vez que acabes tus funciones, usa el menú de la función main para llamar a las funciones*/
+
+void intercambia(int& dato1, int& dato2){
+    //La harás con la maestra, es una función que recibe parámetros por referencia
+}
 
 int main() 
 {
@@ -18,7 +23,8 @@ int main()
         cout << "\t1. Opcion 1"<< endl;
         cout << "\t2. Opcion 2"<< endl;
         cout << "\t3. Opcion 3"<< endl;
-        cout << "\t4. Salir"<< endl;
+        cout << "\t3. Opcion 4"<< endl;
+        cout << "\t5. Salir"<< endl;
         cout << "Opcion: ";
         cin >> opc;
         switch(opc){
@@ -32,6 +38,9 @@ int main()
                 cout << "Abre opcion 3" << endl;
                 break;
             case '4':
+                cout << "Abre opcion 3" << endl;
+                break;
+            case '5':
                 cout << "....Saliendo...." << endl;
                 break;
             default:
